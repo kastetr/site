@@ -151,7 +151,7 @@ img {
 
   padding-top: 133px;
   background-color: #1c4249;
-  background-image: url("/img/hotel.jpg");
+  background-image: url("./img/hotel.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -210,7 +210,7 @@ img {
   left: calc(50% - 55px / 2);
   width: 55px;
   height: 55px;
-  background-image: url("/img/gallery-icon.svg");
+  background-image: url("./img/gallery-icon.svg");
   background-repeat: no-repeat;
 }
 
@@ -280,7 +280,7 @@ img {
   min-height: 556px;
   background-color: #f7f7f7;
   padding-top: 33px;
-  background-image: url("/img/circle.svg");
+  background-image: url("./img/circle.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -371,7 +371,7 @@ img {
   right: 29px;
   width: 24px;
   height: 25px;
-  background-image: url("/img/shape.svg");
+  background-image: url("./img/shape.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -435,18 +435,18 @@ img {
   background-color: white;
 }
 .socials__link--inst {
-  background-image: url("/img/instagram_icon.svg");
+  background-image: url("./img/instagram_icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .socials__link--tw {
-  background-image: url("/img/twitter_icon.svg");
+  background-image: url("./img/twitter_icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .socials__link--fb {
-  background-image: url("/img/facebook_icon.svg");
+  background-image: url("./img/facebook_icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
