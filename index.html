@@ -2,79 +2,145 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,800,800i,900,900i&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
-    <title>Портфолио Junior верстальщика</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Новости Культуры</title>
   </head>
-
-  <body>
-    <header class="page-header">
-      <div class="container">
-        <a class="header-email" href="mailto:dalkiriya@gmail.com"
-          >dalkiriya@gmail.com</a
-        >
-        <a class="header-phone" href="tel:+38066xxxxxxx">+3 806 6XX XX XX</a>
-      </div>
+  <body class="page">
+    <div class="page-wrapper">
+    <header class="page-header container">
+      <h1 class="header__title">Новости культуры</h1>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Обзоры</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Музыка</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Архитертура</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Кино</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Театр</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Литература</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Религия</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Живопись</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <section class="hero-image">
-      <div class="container"><h1 class="heading">Опознанный Енот</h1></div>
-      <div class="container"><p>Junior верстальщик</p></div>
-    </section>
+    <main class="page-main">
+      
+      <section class="intro container">
+        <h2 class="intro__title">Подводный отель</h2>
+        <p class="intro__text">
+          Как известно, Дубай – город контрастов. Самые революционные<br />
+          и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет
+          нефти
+        </p>
+      </section>
 
-    <section class="intro">
-      <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
-        <figure class="user-image">
-          <img
-            src="files/user.jpg"
-            width="928"
-            height="536"
-            alt="Фотография Неопознанного Енота"
-          />
-        </figure>
-      </div>
-      <div class="container"><h3>Пара слов о себе</h3></div>
-      <div class="container"><p>Текст с парой слов о себе.</p></div>
-      <div class="container"><h3>Чем могу быть полезен</h3></div>
-      <div class="container"><p>Текст о том, чем могу быть полезен.</p></div>
-    </section>
+      <section class="reviews container">
+        <h2 class="reviews__title">Обзоры</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <h3 class="item-reviews__title">«Шальные годы» Монпарнаса</h3>
+            <p class="item-reviews__text">
+              В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы
+              Монпарнаса»
+            </p>
+            <img
+              class="item-reviews__photo"
+              src="/img/review-pic-1.jpg"
+              alt="«Шальные годы» Монпарнаса"
+              width="370"
+              height="203"
+            />
+          </li>
+          <li class="reviews__item">
+            <h3 class="item-reviews__title">Анатомия за 30 секунд</h3>
+            <p class="item-reviews__text">
+              Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к
+              научно‑популярной литературе заметно вырос
+            </p>
+            <img
+              class="item-reviews__photo"
+              src="/img/review-pic-2.png"
+              alt="Анатомия за 30 секунд"
+              width="370"
+              height="203"
+            />
+          </li>
+          <li class="reviews__item">
+            <h3 class="item-reviews__title">Сферические чудаки</h3>
+            <p class="item-reviews__text">
+              Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля
+              «Чудаки и зануды»
+            </p>
+            <img
+              class="item-reviews__photo"
+              src="/img/review-pic-3.jpg"
+              alt="Сферические чудаки"
+              width="370"
+              height="203"
+            />
+          </li>
+        </ul>
+      </section>
 
-    <section class="portfolio">
-      <div class="container"><h2 class="subheading">Мои работы</h2></div>
+      <section class="prices container">
+        <h2 class="price__title">Абонементы в театр</h2>
+        <ul class="price__list">
+          <li class="price__item item-price">
+            <h3 class="item-price__title">Скидка 50% на весь сезон 2020</h3>
+            <p class="item-price__text">
+              Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей
+            </p>
+          </li>
+          <li class="price__item item-price">
+            <h3 class="item-price__title">Места у сцены</h3>
+            <p class="item-price__text">Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
+          </li>
+          <li class="price__item item-price">
+            <h3 class="item-price__title">Автограф-сессия актёров</h3>
+            <p class="item-price__text">
+              После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф
+            </p>
+          </li>
+        </ul>
+        <a class="price__button" href="#">Смотреть</a>
+      </section>
+      
+    </main>
 
-      <div class="container">
-        <figure class="project-image">
-          <img
-            src="files/project.jpg"
-            width="928"
-            height="536"
-            alt="Cайт инструктора Кекса"
-          />
-        </figure>
-        <h3>Сайт инструктора Кекса</h3>
-      </div>
-      <div class="container">
-        <p>Небольшой лендинг о школе для начинающих.</p>
-        <a class="button" href="source/project/index.html">Открыть страницу</a>
-      </div>
-
-      <div class="container"><h3>Блог начинающего верстальщика</h3></div>
-      <div class="container">
-        <p>Статический блог про обучение HTML и CSS.</p>
-      </div>
-    </section>
-
-    <footer class="page-footer">
-      <div class="container">
-        <a class="footer-email" href="mailto:dalkiriya@gmail.com"
-          >dalkiriya@gmail.com</a
-        >
-        <a class="footer-phone" href="tel:+38066xxxxxxx">+3 806 6XX XX XX</a>
-      </div>
+    <footer class="page-footer container">
+      <h2 class="footer__title">Новости культуры</h2>
+      <nav class="footer__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Новости</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Обзоры</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Музыка</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Архитертура</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Кино</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Театр</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Литература</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Религия</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--footer" href="">Живопись</a></li>
+        </ul>
+      </nav>
+      <ul class="footer__socials-list socials">
+        <li class="socials-item">
+          <a class="socials__link socials__link--inst" href="#"><span class="visually-hidden">Инстаграм</span></a>
+        </li>
+        <li class="socials-item">
+          <a class="socials__link socials__link--fb" href="#"><span class="visually-hidden">Лицокнига</span></a>
+        </li>
+        <li class="socials-item">
+          <a class="socials__link socials__link--tw" href="#"><span class="visually-hidden">Твиттер</span></a>
+        </li>
+      </ul>
     </footer>
+</div>
   </body>
 </html>
